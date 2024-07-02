@@ -9,7 +9,7 @@
 
 
 #### Data Structures:
-Each data structure has it's won unique features that lend it to being useful in specific scenarios
+With the primary function of data structures being to store information, each data structure has it's own unique features that lend it to being useful in specific scenarios
 
 ##### Lists:
 Lists are ordered collections of items, allowing for sequential storage and retrieval
@@ -54,7 +54,7 @@ head.next.next = Node("Book3")
 
 #### Others we will talk more about:
 - **Stacks:** Collections that follow the LIFO order (Last in First out) *(stack of pancakes)*
-- **Queues:** Collections that follow the FIFO order (First in Last out) *(song queue)*
+- **Queues:** Collections that follow the FIFO order (First in First out) *(song queue)*
 - **Binary Trees:** Similar to linked lists we create TreeNode objects that have data, but instead of a "next" attribute they have a left and right attributes that point to other TreeNodes, creating a Node Heirarchy commonly used to store categories with sub-categories
 - **Graphs:** Just wait and see :)
 
@@ -65,6 +65,7 @@ head.next.next = Node("Book3")
 **Space Complexity**: Measures the memory usage of our algo, also taking into account how it will scale with input.
 
 #### Big O Notation
+https://www.bigocalc.com/
 Big O notation is the measurement scale we use to lable the execution time of the code, O representing the number of operations we do, and n the size of our input.
 
 || Big O | Efficiency | 
